@@ -4,12 +4,12 @@
  *_isalpha -unction that checks for alphabetic character.
  *@c: character that is cjecked
  *
- *Return: 1 if its an alphabet
- *othenrwise, 0
+ *Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= Z'))
+	if ((c >= 'a' && c <= 'z') || 
+	    (c >= 'A' && c <= Z'))
 		return (1);
 	else
 		return (0);
