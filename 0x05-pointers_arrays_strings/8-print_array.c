@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  *print_array -the function that prints an array to the stdout
