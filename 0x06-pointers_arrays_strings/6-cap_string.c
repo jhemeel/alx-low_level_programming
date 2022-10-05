@@ -21,7 +21,7 @@ char *cap_string(char *s)
 		}
 		sep = is_sep(s[i]);
 		i++;
-}
+	}
 	return (s);
 }
 
